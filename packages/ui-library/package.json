@@ -1,6 +1,6 @@
 {
   "name": "ui-library",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "> TODO: description",
   "author": "Naseeb Shah shahnaseeb1010.@gmail.com",
   "homepage": "",
@@ -10,7 +10,9 @@
     "lib": "lib",
     "test": "__tests__"
   },
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "test": "node ./__tests__/ui-library.test.js",
     "build": "babel src -d lib"
